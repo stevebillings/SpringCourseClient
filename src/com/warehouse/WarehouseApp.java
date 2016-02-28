@@ -25,6 +25,7 @@ public class WarehouseApp {
 		System.out.println("---- Total products=" + products.size());
 		for (int i = 0; i < products.size(); i++) {
 			System.out.println("product[" + i + "]=" + products.get(i));
+			client.addToProductQuantity(products.get(i).getProductId(), 100);
 		}
 
 		// Get products by id
