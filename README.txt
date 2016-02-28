@@ -1,1 +1,2 @@
-# Warehouse Backend System / web service client
+# Warehouse Backend System
+A web service client. Uses Store's REST services.
